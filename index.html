@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Speed Typing Game</title>
+     <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <h1>Wordbeater</h1>
+     <div class="container">
+         <p class="blue-text">Type the given word within <span class="green-text">5</span> Seconds:</p>
+         <h2 id="current-word">hello</h2>
+         <input type="text" placeholder="Start Typing...." id="word-input" autofocus>
+         <h4 id="message" class="center red-text"></h4>
+     </div>
+
+<!--Time and Score columns-->
+     <h3 class="center">Time left: <span id="time">0</span></h3>
+     <h3 class="center">Score: <span id="score">0</span></h3>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
